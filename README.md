@@ -8,6 +8,7 @@ My implementation of libc.
 - (my)malloc (achieved through HeapAlloc & mmap syscalls)
 - (my)free (achieved through HeapFree & munmap syscalls)
 - (my)exit (achieved through ExitProcess & exit_group syscalls)
+- (my)system (achieved through CreateProcessA & execve syscalls)
 
 ## string
 

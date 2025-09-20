@@ -20,6 +20,7 @@
 #include <stddef.h> //for type definitions
 #ifdef STDLIB
 #include <sys/mman.h> //for mmap syscall
-#include <unistd.h> //for exit_group syscall
+#include <unistd.h> //for execve 
+#include <sys/syscall.h> //for exit_group syscall
 #endif
 #endif
