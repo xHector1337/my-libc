@@ -19,7 +19,7 @@ My implementation of libc.
 - (my)memcmp (my own implementation)
 - (my)memchr (my own implementation)
 - (my)strstr (my own implementation)
-
+- (my)strcmp (my own implementation)
 ### Notes
 
 This is a fun little side project I've just started working on. Contributors are welcome and I hope you like it :D!

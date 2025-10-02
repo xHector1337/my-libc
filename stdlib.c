@@ -45,7 +45,7 @@ void myfree(void* addr) {
 }
 
 void myexit(int status) {
-	//strace results shows exit calls exit_group()
+	//strace results show exit calls exit_group()
 	syscall(SYS_exit_group, status);
 }
 
